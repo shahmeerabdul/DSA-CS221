@@ -15,7 +15,7 @@ void ReverseArray(int arr[], int size){
 }
 
 int main(){
-    int arr[]={1,2,3,4,5};
+    int arr[]={5,4,3,2,1};
     int size=5;
     ReverseArray(arr,size);
     for(int i=0; i<size; i++){
