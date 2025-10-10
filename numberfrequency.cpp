@@ -49,21 +49,7 @@ num/=10;
     }
 
 }
-for(int i=0; i<9; i++){
-cout<<"Frequency of "<<i<<" in Your Number is "<<arr[i]<<endl;
+    for(int i=0; i<9; i++){
+    cout<<"Frequency of "<<i<<" in Your Number is "<<arr[i]<<endl;
+    }
 }
-// cout<<"Frequency of 0 in Your Number is : "<<arr[0]<<endl;
-// cout<<"Frequency of 1 in Your Number is : "<<arr[1]<<endl;
-// cout<<"Frequency of 2 in Your Number is : "<<arr[2]<<endl;
-// cout<<"Frequency of 3 in Your Number is : "<<arr[3]<<endl;
-// cout<<"Frequency of 4 in Your Number is : "<<arr[4]<<endl;
-// cout<<"Frequency of 5 in Your Number is : "<<arr[5]<<endl;
-// cout<<"Frequency of 6 in Your Number is : "<<arr[6]<<endl;
-// cout<<"Frequency of 7 in Your Number is : "<<arr[7]<<endl;
-// cout<<"Frequency of 8 in Your Number is : "<<arr[8]<<endl;
-// cout<<"Frequency of 9 in Your Number is : "<<arr[9]<<endl;
-
-}
-
-
-
