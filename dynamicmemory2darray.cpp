@@ -27,7 +27,7 @@ int main(){
     }
 
     for(int i=0; i<rows; i++){
-        delete[] arr[rows];
+        delete[] arr[i];
     }
 
     delete[] arr;
