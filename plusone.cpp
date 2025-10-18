@@ -2,22 +2,23 @@
 using namespace std;
 
 void PlusOne(int arr[], int size){
-    for(int i=0; i<size; i++){
-        if(arr[size-1]!=9){
+    
+    if(arr[size-1]!=9){
             arr[size-1]+=1;
-            break;
-        }
-        else{
-          arr[size-i-1]=0;
-          arr[size-size]+=1;
-        }
     }
-
+    else{
+    while(arr[size-1]==9){
+        arr[size-1]=0;
+        size--;
+    }
+    arr[size-size]+=1;
+}
 }
 
+
 int main(){
-    int arr[]={1,9,9};
-    int size=3;
+    int arr[]={9};
+    int size=sizeof(arr)/sizeof(arr[0]);
 
     PlusOne(arr, size);
     for(int i=0; i<size; i++){
