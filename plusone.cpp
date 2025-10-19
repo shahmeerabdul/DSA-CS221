@@ -17,7 +17,7 @@ void PlusOne(int arr[], int size){
 
 
 int main(){
-    int arr[]={9};
+    int arr[]={9,1,9};
     int size=sizeof(arr)/sizeof(arr[0]);
 
     PlusOne(arr, size);
