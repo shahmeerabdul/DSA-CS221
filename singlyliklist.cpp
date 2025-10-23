@@ -13,6 +13,23 @@ void Insert(Node* &head, int value){
     head=newNode;
 }
 
+void InsertatPosition(Node* &head,int pos, int value){
+    Node* temp=head;
+    Node* newNode=new Node;
+    newNode->data=value;
+    if(head==NULL){
+        Insert(head,value);
+    }
+    else{
+        for(int i=1; i<pos-1 && temp!=NULL; i++){
+            temp=temp->next;
+        }
+        newNode->next=temp->next;
+        temp->next=newNode;
+    }
+}
+
+
 void Display(Node* head){
     Node* temp=head;
 
@@ -62,5 +79,8 @@ int main(){
     Display(head);
     cout<<endl;
     cout<<Mid(head);
+    cout<<endl;
+    InsertatPosition(head,3,56);
+    Display(head);
     
 }
