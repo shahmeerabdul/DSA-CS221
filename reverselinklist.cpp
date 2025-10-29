@@ -38,7 +38,7 @@ void Display(Node* head){
 
 int main(){
     Node* head=NULL;
-
+    cout<<"Original List : ";
     InsertNode(head,100);
     InsertNode(head,200);
     InsertNode(head,300);
@@ -46,7 +46,7 @@ int main(){
     InsertNode(head,500);
     Display(head);
     cout<<endl;
-
+    cout<<"Reversed List : ";
     ReverseLL(head);
     Display(head);
     
