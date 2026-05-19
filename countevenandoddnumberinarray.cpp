@@ -13,8 +13,8 @@ void CountEvenandOdd(int arr[], int size){
             odd++;
         }
     }
-    cout<<"Evens in The Array are "<<even<<endl;
-    cout<<"Odds in The Array are   "<<odd<<endl;
+    cout<<"Evens in The Array are "<<even <<endl;
+    cout<<"Odds in The Array are "<<odd <<endl;
 }
 
 int main(){
